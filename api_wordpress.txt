@@ -1,0 +1,52 @@
+Wordpress api related code & plugin
+
+https://wordpress.org/plugins/rest-api/
+
+http://v2.wp-api.org/
+
+https://wordpress.org/plugins/rest-api-oauth1/
+
+
+After then open the Chrome browser
+
+Click the Apps icon -> choose the web store-> Search the extentions -> postman name after then showing the different extension file then very uploaded file then install the postman extentions
+
+chrome://apps/  : Then showing the postman extension after then open the postman extension.
+
+:- http://localhost/wordpress_api/wp-json/wp/v2/posts
+
+Show the json format showing the Get method
+
+User -> Application 
+
+Callback : http://localhost/example-client/www/
+
+OAuth Credentials
+
+Client Key	6icK56MDhEfM
+
+Client Secret	yVvRjnKmpsLMPWQ72ZzLICZjV0wUb5uiGnH21vQhu8Cn9LkM
+
+Then click the post method in postman extention
+
+Choose the Authorization and add the consumer key, consumer secret, Token, Token Secret
+
+Choose the raw & JSON (application/json)
+
+After then add the body 
+
+{
+	 "date": "2017-05-02T05:36:57",
+	 "status": "publish",
+	 "title": "my first post",
+	  "content": "hi this is my post"
+	  
+}
+
+
+
+Demo content :  https://wordpress.org/plugins/fakerpress/
+
+https://github.com/WP-API/example-client
+
+http://github.com/kkumardev12
